@@ -2,20 +2,30 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background: #f0f0f5;
+}
+
 /*box model
 modelo de caixa. Toda caixa tem largura, altura, espaçamento, bordas,
 cor, fundo, maneira que é vista pelo html(display)
 alinhamentos
 */
+#page-home{
+    height: 100vh;
+    background: url(../assets/icones/home-background.svg) no-repeat;
+    background-position: 35vw bottom;
+}
 
-header {
+#page-home .content{
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto ;
+}
+
+#page-home header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.content{
-    width: 90%;
-    max-width: 1800px;
-    margin: 0 auto ;
-}
